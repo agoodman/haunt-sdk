@@ -8,15 +8,86 @@
 
 /* Begin PBXBuildFile section */
 		7E2B8A6B15B3B4FB00712D20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2B8A6A15B3B4FB00712D20 /* Foundation.framework */; };
-		7E2B8A7115B3B4FC00712D20 /* Haunt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2B8A7015B3B4FB00712D20 /* Haunt.m */; };
+		7E2B8A7B15B3B54400712D20 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2B8A7A15B3B54400712D20 /* CoreLocation.framework */; };
+		7E2B8A8015B3B58F00712D20 /* NSObject+Haunted.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2B8A7E15B3B58F00712D20 /* NSObject+Haunted.h */; };
+		7E2B8A8115B3B58F00712D20 /* NSObject+Haunted.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2B8A7F15B3B58F00712D20 /* NSObject+Haunted.m */; };
+		7E2B8A9115B3B71800712D20 /* Waypoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2B8A8F15B3B71800712D20 /* Waypoint.h */; };
+		7E2B8A9215B3B71800712D20 /* Waypoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2B8A9015B3B71800712D20 /* Waypoint.m */; };
+		7E2B8AB015B3B81E00712D20 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2B8AA815B3B81D00712D20 /* AVFoundation.framework */; };
+		7E2B8AB115B3B81E00712D20 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2B8AA915B3B81D00712D20 /* CFNetwork.framework */; };
+		7E2B8AB215B3B81E00712D20 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2B8AAA15B3B81D00712D20 /* CoreFoundation.framework */; };
+		7E2B8AB315B3B81E00712D20 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2B8AAB15B3B81D00712D20 /* libxml2.dylib */; };
+		7E2B8AB415B3B81E00712D20 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2B8AAC15B3B81E00712D20 /* MobileCoreServices.framework */; };
+		7E2B8AB515B3B81E00712D20 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2B8AAD15B3B81E00712D20 /* QuartzCore.framework */; };
+		7E2B8AB615B3B81E00712D20 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2B8AAE15B3B81E00712D20 /* Security.framework */; };
+		7E2B8AB715B3B81E00712D20 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2B8AAF15B3B81E00712D20 /* SystemConfiguration.framework */; };
+		7E2B8AB815B3B82B00712D20 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2B8A9F15B3B7F900712D20 /* libRestKit.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E2B8A9E15B3B7F900712D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E2B8A9315B3B7F800712D20 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		7E2B8AA015B3B7F900712D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E2B8A9315B3B7F800712D20 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		7E2B8AA215B3B7F900712D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E2B8A9315B3B7F800712D20 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		7E2B8AA415B3B7F900712D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E2B8A9315B3B7F800712D20 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		7E2B8AA615B3B7F900712D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E2B8A9315B3B7F800712D20 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 259C301615128079003066A2;
+			remoteInfo = RestKitResources;
+		};
+		7E2B8AB915B3B83000712D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E2B8A9315B3B7F800712D20 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7E2B8A6715B3B4FB00712D20 /* libHaunt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHaunt.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E2B8A6A15B3B4FB00712D20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7E2B8A6E15B3B4FB00712D20 /* Haunt-Prefix.pch */ = {isa = PBXFileReference; path = "Haunt-Prefix.pch"; sourceTree = "<group>"; };
-		7E2B8A6F15B3B4FB00712D20 /* Haunt.h */ = {isa = PBXFileReference; path = Haunt.h; sourceTree = "<group>"; };
-		7E2B8A7015B3B4FB00712D20 /* Haunt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Haunt.m; sourceTree = "<group>"; };
+		7E2B8A6E15B3B4FB00712D20 /* Haunt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Haunt-Prefix.pch"; sourceTree = "<group>"; };
+		7E2B8A6F15B3B4FB00712D20 /* Haunt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Haunt.h; sourceTree = "<group>"; };
+		7E2B8A7A15B3B54400712D20 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7E2B8A7E15B3B58F00712D20 /* NSObject+Haunted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Haunted.h"; sourceTree = "<group>"; };
+		7E2B8A7F15B3B58F00712D20 /* NSObject+Haunted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Haunted.m"; sourceTree = "<group>"; };
+		7E2B8A8F15B3B71800712D20 /* Waypoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Waypoint.h; sourceTree = "<group>"; };
+		7E2B8A9015B3B71800712D20 /* Waypoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Waypoint.m; sourceTree = "<group>"; };
+		7E2B8A9315B3B7F800712D20 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
+		7E2B8AA815B3B81D00712D20 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7E2B8AA915B3B81D00712D20 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7E2B8AAA15B3B81D00712D20 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		7E2B8AAB15B3B81D00712D20 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		7E2B8AAC15B3B81E00712D20 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7E2B8AAD15B3B81E00712D20 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7E2B8AAE15B3B81E00712D20 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7E2B8AAF15B3B81E00712D20 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +95,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E2B8AB815B3B82B00712D20 /* libRestKit.a in Frameworks */,
+				7E2B8AB015B3B81E00712D20 /* AVFoundation.framework in Frameworks */,
+				7E2B8AB115B3B81E00712D20 /* CFNetwork.framework in Frameworks */,
+				7E2B8AB215B3B81E00712D20 /* CoreFoundation.framework in Frameworks */,
+				7E2B8AB315B3B81E00712D20 /* libxml2.dylib in Frameworks */,
+				7E2B8AB415B3B81E00712D20 /* MobileCoreServices.framework in Frameworks */,
+				7E2B8AB515B3B81E00712D20 /* QuartzCore.framework in Frameworks */,
+				7E2B8AB615B3B81E00712D20 /* Security.framework in Frameworks */,
+				7E2B8AB715B3B81E00712D20 /* SystemConfiguration.framework in Frameworks */,
+				7E2B8A7B15B3B54400712D20 /* CoreLocation.framework in Frameworks */,
 				7E2B8A6B15B3B4FB00712D20 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,6 +115,7 @@
 		7E2B8A5C15B3B4FB00712D20 = {
 			isa = PBXGroup;
 			children = (
+				7E2B8A9315B3B7F800712D20 /* RestKit.xcodeproj */,
 				7E2B8A6C15B3B4FB00712D20 /* Haunt */,
 				7E2B8A6915B3B4FB00712D20 /* Frameworks */,
 				7E2B8A6815B3B4FB00712D20 /* Products */,
@@ -51,6 +133,15 @@
 		7E2B8A6915B3B4FB00712D20 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7E2B8AA815B3B81D00712D20 /* AVFoundation.framework */,
+				7E2B8AA915B3B81D00712D20 /* CFNetwork.framework */,
+				7E2B8AAA15B3B81D00712D20 /* CoreFoundation.framework */,
+				7E2B8AAB15B3B81D00712D20 /* libxml2.dylib */,
+				7E2B8AAC15B3B81E00712D20 /* MobileCoreServices.framework */,
+				7E2B8AAD15B3B81E00712D20 /* QuartzCore.framework */,
+				7E2B8AAE15B3B81E00712D20 /* Security.framework */,
+				7E2B8AAF15B3B81E00712D20 /* SystemConfiguration.framework */,
+				7E2B8A7A15B3B54400712D20 /* CoreLocation.framework */,
 				7E2B8A6A15B3B4FB00712D20 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -59,8 +150,8 @@
 		7E2B8A6C15B3B4FB00712D20 /* Haunt */ = {
 			isa = PBXGroup;
 			children = (
+				7E2B8A7D15B3B55000712D20 /* Core */,
 				7E2B8A6F15B3B4FB00712D20 /* Haunt.h */,
-				7E2B8A7015B3B4FB00712D20 /* Haunt.m */,
 				7E2B8A6D15B3B4FB00712D20 /* Supporting Files */,
 			);
 			path = Haunt;
@@ -74,6 +165,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7E2B8A7D15B3B55000712D20 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7E2B8A8F15B3B71800712D20 /* Waypoint.h */,
+				7E2B8A9015B3B71800712D20 /* Waypoint.m */,
+				7E2B8A7E15B3B58F00712D20 /* NSObject+Haunted.h */,
+				7E2B8A7F15B3B58F00712D20 /* NSObject+Haunted.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7E2B8A9415B3B7F800712D20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E2B8A9F15B3B7F900712D20 /* libRestKit.a */,
+				7E2B8AA115B3B7F900712D20 /* RestKitTests.octest */,
+				7E2B8AA315B3B7F900712D20 /* RestKit.framework */,
+				7E2B8AA515B3B7F900712D20 /* RestKitFrameworkTests.octest */,
+				7E2B8AA715B3B7F900712D20 /* RestKitResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -81,6 +195,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E2B8A8015B3B58F00712D20 /* NSObject+Haunted.h in Headers */,
+				7E2B8A9115B3B71800712D20 /* Waypoint.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +214,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				7E2B8ABA15B3B83000712D20 /* PBXTargetDependency */,
 			);
 			name = Haunt;
 			productName = Haunt;
@@ -122,6 +239,12 @@
 			mainGroup = 7E2B8A5C15B3B4FB00712D20;
 			productRefGroup = 7E2B8A6815B3B4FB00712D20 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7E2B8A9415B3B7F800712D20 /* Products */;
+					ProjectRef = 7E2B8A9315B3B7F800712D20 /* RestKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7E2B8A6615B3B4FB00712D20 /* Haunt */,
@@ -129,16 +252,63 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		7E2B8A9F15B3B7F900712D20 /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = 7E2B8A9E15B3B7F900712D20 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E2B8AA115B3B7F900712D20 /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = 7E2B8AA015B3B7F900712D20 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E2B8AA315B3B7F900712D20 /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = 7E2B8AA215B3B7F900712D20 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E2B8AA515B3B7F900712D20 /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = 7E2B8AA415B3B7F900712D20 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E2B8AA715B3B7F900712D20 /* RestKitResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitResources.bundle;
+			remoteRef = 7E2B8AA615B3B7F900712D20 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E2B8A6315B3B4FB00712D20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E2B8A7115B3B4FC00712D20 /* Haunt.m in Sources */,
+				7E2B8A8115B3B58F00712D20 /* NSObject+Haunted.m in Sources */,
+				7E2B8A9215B3B71800712D20 /* Waypoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E2B8ABA15B3B83000712D20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = 7E2B8AB915B3B83000712D20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7E2B8A7215B3B4FC00712D20 /* Debug */ = {
@@ -189,9 +359,17 @@
 				DSTROOT = /tmp/Haunt.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Haunt/Haunt-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
+				OBJROOT = "$(SRCROOT)/Build";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = ../../Headers/Haunt;
 				SKIP_INSTALL = YES;
+				SYMROOT = "$(SRCROOT)/Build/Products";
 			};
 			name = Debug;
 		};
@@ -201,9 +379,17 @@
 				DSTROOT = /tmp/Haunt.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Haunt/Haunt-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
+				OBJROOT = "$(SRCROOT)/Build";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = "$(PUBLIC_HEADERS_FOLDER_PATH)/Private";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = ../../Headers/Haunt;
 				SKIP_INSTALL = YES;
+				SYMROOT = "$(SRCROOT)/Build/Products";
 			};
 			name = Release;
 		};
@@ -226,6 +412,7 @@
 				7E2B8A7615B3B4FC00712D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
